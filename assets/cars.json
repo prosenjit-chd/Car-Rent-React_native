@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "title": "Corola RS-1",
+        "Owner": "Mr. Mohosin Ali",
+        "location": "Dhaka",
+        "price": 350,
+        "type": "home",
+        "img": "https://i.ibb.co/23zwBbj/Car-2.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    },
+    {
+        "id": "2",
+        "title": "Aston Martin V-1",
+        "Owner": "Mr. Partha Balaji",
+        "location": "Dhaka",
+        "price": 390,
+        "type": "home",
+        "img": "https://i.ibb.co/k3mT3QH/Car-3.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    },
+    {
+        "id": "3",
+        "title": "Audi KV-3",
+        "Owner": "Ms. Rehana Parvin",
+        "location": "Dhaka",
+        "price": 420,
+        "type": "home",
+        "img": "https://i.ibb.co/jWw6nQK/Car-5.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    },
+    {
+        "id": "4",
+        "title": "Cadillac ER-3",
+        "Owner": "Mr. Amiya Kumar",
+        "location": "Dhaka",
+        "price": 470,
+        "type": "home",
+        "img": "https://i.ibb.co/9331ThX/Car-4.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer a butch stance. The New Gixxer’s sharp look is also thanks to the LED headlight and tail-lamp that Suzuki is offering. Turn indicators continue to be conventional bulbs"
+    },
+    {
+        "id": "5",
+        "title": "Chevrolet WE-6",
+        "Owner": "Mr. Subroto Kr",
+        "location": "Dhaka",
+        "price": 500,
+        "type": "home",
+        "img": "https://i.ibb.co/hCcsfj4/Car-1.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer a butch stance. The"
+    },
+    {
+        "id": "6",
+        "title": "Datsun RTX-4",
+        "Owner": "Mr. Chandan Paul",
+        "location": "Chittagong",
+        "price": 360,
+        "type": "home",
+        "img": "https://i.ibb.co/12Ggzyq/Car-7.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer a butch stance. The New Gixxer’s sharp look is also thanks to the LED headlight and tail-lamp that Suzuki is offering. Turn indicators continue to be conventional bulbs"
+    },
+    {
+        "id": "7",
+        "title": "Ferrari BN-1",
+        "Owner": "Mr. Ananta Ghosh",
+        "location": "Chittagong",
+        "price": 380,
+        "type": "home",
+        "img": "https://i.ibb.co/tLCrGLp/Car-10.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer a butch stance. The New Gixxer’s sharp look is also thanks to the LED headlight and tail-lamp that Suzuki is offering. Turn indicators continue to be conventional bulbs"
+    },
+    {
+        "id": "8",
+        "title": "Ferrari BN-1",
+        "Owner": "Ms. Mahajabin Kawnanine",
+        "location": "Chittagong",
+        "price": 400,
+        "type": "home",
+        "img": "https://i.ibb.co/tmQWMjR/Car-6.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    },
+    {
+        "id": "9",
+        "title": "Corola WE-1",
+        "Owner": "Mr. Biplob Chowdhury",
+        "location": "Khulna",
+        "price": 410,
+        "type": "home",
+        "img": "https://i.ibb.co/t8JVPzL/Car-8.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    },
+    {
+        "id": "10",
+        "title": "Corola B-6",
+        "Owner": "Ms. Kona Saha",
+        "location": "Khulna",
+        "price": 440,
+        "type": "home",
+        "img": "https://i.ibb.co/nPQXzh7/Car-9.jpg",
+        "deatails": "The New Gixxer is featured with muscular street bike styling right, the overall ethos of the appearance is premium & stylish. There’s a large, sculpted fuel tank that takes center-stage, and the flat, wide handlebars give the New Gixxer"
+    }
+]

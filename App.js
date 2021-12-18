@@ -13,6 +13,21 @@ import {
   Code,
 } from "native-base";
 import NativeBaseIcon from "./components/NativeBaseIcon";
+import Home from "./components/Home";
+import Car from "./components/Car";
+import Cars from "./components/Cars";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import { NativeRouter, Route, Routes } from "react-router-native";
+import Profile from "./components/Profile";
+import Orders from "./components/Orders";
+import CarDetails from "./components/CarDetails";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import AuthProvider from "./context/AuthProvider";
+import PrivateRoute from "./components/PrivateRoute";
+import AllOrders from "./components/AllOrders";
+
 
 // Define the config
 const config = {
@@ -26,46 +41,32 @@ export const theme = extendTheme({ config });
 export default function App() {
   return (
     <NativeBaseProvider>
-      <Center
-        _dark={{ bg: "blueGray.900" }}
-        _light={{ bg: "blueGray.50" }}
-        px={4}
-        flex={1}
-      >
-        <VStack space={5} alignItems="center">
-          <NativeBaseIcon />
-          <Heading size="lg">Welcome to NativeBase</Heading>
-          <HStack space={2} alignItems="center">
-            <Text>Edit</Text>
-            <Code>App.js</Code>
-            <Text>and save to reload.</Text>
-          </HStack>
-          <Link href="https://docs.nativebase.io" isExternal>
-            <Text color="primary.500" underline fontSize={"xl"}>
-              Learn NativeBase
-            </Text>
-          </Link>
-          <ToggleDarkMode />
-        </VStack>
-      </Center>
+      <AuthProvider>
+        <Center
+          _dark={{ bg: "blueGray.900" }}
+          _light={{ bg: "blueGray.50" }}
+          px={4}
+          flex={1}
+          safeArea
+        >
+          <NativeRouter>
+            <Header />
+            <Routes>
+              <Route path="/" element={<Cars />} />
+              <Route path="/home" element={<Cars />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/order" element={<Orders />} />
+              <Route path="/allorders" element={<AllOrders />} />
+              <Route path="/details/:id" element={<PrivateRoute><CarDetails /></PrivateRoute>} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<SignUp />} />
+            </Routes>
+            <Footer />
+          </NativeRouter>
+        </Center>
+      </AuthProvider>
     </NativeBaseProvider>
   );
 }
 
-// Color Switch Component
-function ToggleDarkMode() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  return (
-    <HStack space={2} alignItems="center">
-      <Text>Dark</Text>
-      <Switch
-        isChecked={colorMode === "light" ? true : false}
-        onToggle={toggleColorMode}
-        aria-label={
-          colorMode === "light" ? "switch to dark mode" : "switch to light mode"
-        }
-      />
-      <Text>Light</Text>
-    </HStack>
-  );
-}
+
