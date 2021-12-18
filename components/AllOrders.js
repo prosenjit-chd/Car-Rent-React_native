@@ -25,7 +25,7 @@ const AllOrders = () => {
     // Use UseState here 
     const [myEvents, setMyEvents] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/rents')
+        fetch('https://car-rent-pc.herokuapp.com/rents')
             .then(res => res.json())
             .then(data => setMyEvents(data))
     }, [])
@@ -33,7 +33,7 @@ const AllOrders = () => {
 
 
     const handleDeleteOrder = id => {
-        fetch(`http://localhost:5000/rents/${id}`, {
+        fetch(`https://car-rent-pc.herokuapp.com/rents/${id}`, {
             method: 'DELETE',
         })
             .then(res => res.json())
@@ -49,7 +49,7 @@ const AllOrders = () => {
     const handleAddOrder = id => {
         const findOrder = myEvents.find(event => event._id === id)
         findOrder.status = !findOrder.status;
-        fetch(`http://localhost:5000/rents/${id}`, {
+        fetch(`https://car-rent-pc.herokuapp.com/rents/${id}`, {
             method: 'PUT', // Method itself
             headers: {
                 'Content-type': 'application/json; charset=UTF-8' // Indicates the content 

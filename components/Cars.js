@@ -9,7 +9,7 @@ const Cars = () => {
     const [loading, setLoading] = useState(true);
     // Use Use Effect here 
     useEffect(() => {
-        fetch('http://localhost:5000/carscollection')
+        fetch('https://car-rent-pc.herokuapp.com/carscollection')
             .then(res => res.json())
             .then(data => setCar(data.tours))
             .then(() => setLoading(false))

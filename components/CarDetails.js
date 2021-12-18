@@ -33,7 +33,7 @@ const CarDetails = () => {
     const navigate = useNavigate();
     // Use Use Effect here 
     useEffect(() => {
-        fetch(`http://localhost:5000/carscollection/${id}`)
+        fetch(`https://car-rent-pc.herokuapp.com/carscollection/${id}`)
             .then(res => res.json())
             .then(data => setCar(data))
             .then(() => setLoading(false))
@@ -50,7 +50,7 @@ const CarDetails = () => {
             carAddress: address,
             status: false
         }
-        fetch('http://localhost:5000/rents', {
+        fetch('https://car-rent-pc.herokuapp.com/rents', {
             method: 'post',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
