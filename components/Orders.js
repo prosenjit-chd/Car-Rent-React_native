@@ -109,7 +109,7 @@ const Orders = () => {
                                 </Text>
                             </VStack>
                             <Spacer />
-                            <Button size="sm" w="16" onPress={() => handleDeleteOrder(item._id)}>
+                            <Button size="sm" w="12" h="8" colorScheme="red" onPress={() => handleDeleteOrder(item._id)}>
                                 Cancel
                             </Button>
                         </HStack>

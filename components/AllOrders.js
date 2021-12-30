@@ -122,10 +122,10 @@ const AllOrders = () => {
                                 </Text>
                             </VStack>
                             <Spacer />
-                            <Button size="sm" w="16" onPress={() => handleDeleteOrder(item._id)}>
+                            <Button size="sm" w="12" h="8" colorScheme="red" onPress={() => handleDeleteOrder(item._id)}>
                                 Cancel
                             </Button>
-                            <Button size="sm" w="16" onPress={() => handleAddOrder(item._id)}>
+                            <Button size="sm" w="12" h="8" colorScheme="success" onPress={() => handleAddOrder(item._id)}>
                                 Add
                             </Button>
                         </HStack>

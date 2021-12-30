@@ -179,7 +179,7 @@ const CarDetails = () => {
                                     </Text>
                                 </HStack>
                             </HStack>
-                            <Button size="xs" w="16" onPress={() => setShowModal(true)}>
+                            <Button size="xs" w="16" colorScheme="cyan" onPress={() => setShowModal(true)}>
                                 Book Now
                             </Button>
                         </Stack>

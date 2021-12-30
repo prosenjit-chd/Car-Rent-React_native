@@ -11,7 +11,7 @@ const Car = (props) => {
     }
     return (
         <View shadow={4} padding={3} bg="coolGray.100">
-            <HStack space={3} justifyContent="space-between" width="300">
+            <HStack space={3} justifyContent="space-between" width="330">
                 <Image
                     source={{
                         uri: `${img}`,

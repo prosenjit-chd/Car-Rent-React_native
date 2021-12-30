@@ -27,6 +27,7 @@ import SignUp from "./components/SignUp";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute";
 import AllOrders from "./components/AllOrders";
+import AddCar from "./components/AddCar";
 
 
 // Define the config
@@ -57,6 +58,7 @@ export default function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/order" element={<Orders />} />
               <Route path="/allorders" element={<AllOrders />} />
+              <Route path="/addcar" element={<AddCar />} />
               <Route path="/details/:id" element={<PrivateRoute><CarDetails /></PrivateRoute>} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />

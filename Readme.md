@@ -1,9 +1,15 @@
-# expo-template-native-base
+# Project Name: Car Rent
+ (For online car rent booking company)
 
-The official NativeBase template for [Expo](https://docs.expo.io/)
+# Live Site Link
+(https://prosenjit-app.web.app/)
 
-## Usage
+## About Project
 
-```sh
-expo init my-app --template expo-template-native-base
-```
+- This Project made for those people who want to rent car.
+- Here, user can sea different types of car , user can book his preferred bike using this system.
+- After choosing any car, user can book this car.
+- User can select different types of car. First add one then add another.
+- Without LogIn this system user can't enroll any bike package.
+- User can signUp this system through email password.
+- This system store all the information into database and it run its rerver always.
